@@ -44,7 +44,7 @@ function App() {
         </div>
         <div className="review absolute bottom-1 right-1 select-none bg-pink-200 px-5 py-2 font-bold rounded-md text-black cursor-pointer" onClick={reviewcode}>Review</div>
       </div>
-      <div className="right overflow-auto w-1/2 h-full bg-[#1e1e1e] rounded-xl text-gray-100 p-4 font-medium whitespace-pre-wrap ">
+      <div className="right overflow-x-auto overflow-y-auto w-1/2 h-full bg-[#1e1e1e] rounded-xl text-gray-100 p-4 font-medium whitespace-pre-wrap ">
     <Markdown rehypePlugins={[rehypeHighlight]}>{review}</Markdown></div>
      </main>
     </>
